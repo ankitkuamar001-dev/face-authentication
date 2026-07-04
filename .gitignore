@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files (SECRETS — never commit)
+.env
+.env.local
+.env.*.local
+
+# DeepFace model weights (large binary files)
+backend/.deepface/
+
+# Database
+*.db
+*.sqlite3
+
+# Alembic (keep versions, ignore compiled)
+*.pyc
+
+# Logs
+*.log
+logs/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+frontend/.vite/
+
+# Docker volumes / data
+pg_data/
+redis_data/
+minio_data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
